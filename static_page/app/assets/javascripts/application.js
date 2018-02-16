@@ -15,3 +15,9 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+function email1()
+{
+	var email1=document.getElementbyId("email")
+	email1.value = email1.value.toUpperCase();
+	console.log(email1)
+}
